@@ -1,3 +1,5 @@
+#ifndef _SELECTIONSORT_H_
+#define _SELECTIONSORT_H_
 #include "swap.h"
 
 void selectionSort(int list[], int arrSize){
@@ -14,7 +16,7 @@ void selectionSort(int list[], int arrSize){
         swap(&list[i], &list[min]);
     }
 }
-
+#endif
 
 
 
